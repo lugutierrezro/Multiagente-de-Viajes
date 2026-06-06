@@ -4,7 +4,7 @@ from travel_assistant.tools.budget_tools import estimate_trip_budget
 
 budget_agent = Agent(
     name="budget_agent",
-    model="gemini-1.5-flash",
+    model="gemini-flash-latest",
     description="Estimates basic travel budgets.",
     instruction="""
 You are a travel budget advisor.
